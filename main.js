@@ -13,7 +13,7 @@ plus.addEventListener("click", function
             check.classList.add("check");
             const checkImg = document.createElement("img");
             checkImg.classList.add("hide");
-            checkImg.src = "circle-check-regular.svg";
+            checkImg.src = "Images/circle-check-regular.svg";
             check.appendChild(checkImg);
 
             const item = document.createElement("span");
@@ -23,7 +23,7 @@ plus.addEventListener("click", function
             const deleted = document.createElement("div");
             deleted.classList.add("delete");
             const deletedImg = document.createElement("img");
-            deletedImg.src = "circle-xmark-regular.svg";
+            deletedImg.src = "Images/circle-xmark-regular.svg";
             deleted.appendChild(deletedImg);
 
             box.appendChild(check);
